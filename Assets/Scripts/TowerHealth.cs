@@ -9,7 +9,7 @@ public class TowerHealth : MonoBehaviour
 	public int numberOfLives = 3;	//How many hits tower can take
 	public Image damageImage;		//Full screen red image
 
-    int currentLives;				//Current number of lives
+    public int currentLives;				//Current number of lives
 	AudioSource damageAudio;		//Audio feedback of hit
 	bool alive = true;				//Is the tower alive?
 
